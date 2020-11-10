@@ -1,0 +1,9 @@
+#https://github.com/geerlingguy/ansible-role-jenkins
+- hosts: all
+  vars:
+    jenkins_hostname: '192.168.56.100'
+    jenkins_plugins_install_dependencies: true
+    jenkins_plugins: ['GitHub', 'Git client', 'Pipeline']
+  roles:
+    - role: geerlingguy.jenkins
+      become: yes
