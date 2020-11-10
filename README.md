@@ -1,11 +1,3 @@
-After vagrant up, jenkins restart required
-    http://192.168.56.100:8080/restart
-    To load installed plugins
-
-credentials:
-
-admin
-admin
 # Vagrant Jenkins
 
 With this repository you can create a local **[Jenkins server](https://www.jenkins.io/)** implementation with vagrant (CentOS 7 VM).
